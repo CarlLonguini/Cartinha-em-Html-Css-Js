@@ -102,4 +102,29 @@ body {
       transform: scale(1);
     }
   }
+  @media (max-width: 600px) {
+    body {
+      flex-direction: column;
+      padding: 20px;
+      height: auto;
+    }
   
+    #openButton {
+      padding: 12px 20px;
+      font-size: 16px;
+    }
+  
+    .content {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .envelope {
+      width: 150px;
+      height: 80px;
+    }
+  
+    .heart {
+      font-size: 18px;
+    }
+  }
